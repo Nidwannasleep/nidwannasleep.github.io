@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1">
+<title>Ha Van Tinh | Portfolio</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #f8fafc;
+    line-height: 1.6;
+}
+
+nav {
+    background: #1e293b;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    text-align: center;
+    padding: 85px 20px;
+    background: linear-gradient(
+        135deg, #0f172a, #1e3a5f
+    );
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #38bdf8;
+}
+
+section {
+    padding: 55px 10%;
+}
+
+.subtitle {
+    color: #38bdf8;
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    background: #1e293b;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+.project {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 600px;
+}
+
+.project a, #contact a {
+    color: #38bdf8;
+}
+
+footer {
+    text-align: center;
+    padding: 22px;
+    background: #1e293b;
+}
+
+@media (max-width: 600px) {
+    h1 { font-size: 30px; }
+    section { padding: 40px 6%; }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <strong>Ha Van Tinh</strong>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<div class="hero">
+    <img src="avatar.jpg" alt="Profile Photo">
+
+    <h1>Ha Van Tinh</h1>
+    <p class="subtitle">
+        Software Engineering Student
+    </p>
+    <p>FPT University | Can Tho Campus</p>
+
+    <a class="btn" href="#projects">
+        View My Projects
+    </a>
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! I'm Ha Van Tinh, a Software
+        Engineering student at FPT University.
+
+        I am passionate about programming,
+        software development, and learning
+        new technologies.
+
+        My goal is to become a professional
+        Software Developer.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+        <span>C</span>
+        <span>C++</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Problem Solving</span>
+        <span>Teamwork</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+        <h3>Tic Tac Toe Game in C</h3>
+
+        <p>
+            A two-player console game developed
+            using the C programming language.
+            Features include win detection,
+            input validation, and replay.
+        </p>
+
+        <p><strong>Technology:</strong> C</p>
+
+        <a href="https://github.com/Nidwannasleep/Tic-Tac-Toe-C"
+           target="_blank" rel="noopener noreferrer">
+            View Source Code
+        </a>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/Nidwannasleep">
+            Nidwannasleep
+        </a>
+    </p>
+</section>
+
+<footer>
+    © 2026 Ha Van Tinh. All rights reserved.
+</footer>
+
+</body>
+</html>
